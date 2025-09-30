@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/banal/OneDrive/Desktop/midterm-im2-web/lib/auth.ts"],"sourcesContent":["import NextAuth from \"next-auth\"\r\nimport Google from \"next-auth/providers/google\"\r\n \r\nexport const { handlers, signIn, signOut, auth } = NextAuth({\r\n  providers: [Google],\r\n})"],"names":[],"mappings":";;;;;;;;;;AAAA;AACA;AAAA;;;AAEO,MAAM,EAAE,QAAQ,EAAE,MAAM,EAAE,OAAO,EAAE,IAAI,EAAE,GAAG,IAAA,kKAAQ,EAAC;IAC1D,WAAW;QAAC,kKAAM;KAAC;AACrB","debugId":null}},
+    {"offset": {"line": 85, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/banal/OneDrive/Desktop/midterm-im2-web/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import { handlers } from \"@/lib/auth\" // Referring to the auth.ts we just created\r\nexport const { GET, POST } = handlers"],"names":[],"mappings":";;;;;;AAAA,+LAAsC,2CAA2C;;AAC1E,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,yHAAQ","debugId":null}}]
+}

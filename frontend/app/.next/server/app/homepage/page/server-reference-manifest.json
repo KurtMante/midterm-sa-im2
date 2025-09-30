@@ -1,0 +1,20 @@
+{
+  "node": {
+    "0020731858c4a09936dc5f9c3da689131665df1787": {
+      "workers": {
+        "app/homepage/page": {
+          "moduleId": "[project]/.next-internal/server/app/homepage/page/actions.js { ACTIONS_MODULE0 => \"[project]/components/Signout.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "components/Signout.tsx"
+        }
+      },
+      "layer": {
+        "app/homepage/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "components/Signout.tsx"
+    }
+  },
+  "edge": {}
+}

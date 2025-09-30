@@ -1,0 +1,35 @@
+{
+  "node": {
+    "0020731858c4a09936dc5f9c3da689131665df1787": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/components/Signout.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "components/Signout.tsx"
+        },
+        "app/homepage/page": {
+          "moduleId": "[project]/.next-internal/server/app/homepage/page/actions.js { ACTIONS_MODULE0 => \"[project]/components/Signout.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "components/Signout.tsx"
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/components/Signout.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "components/Signout.tsx"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc",
+        "app/homepage/page": "rsc",
+        "app/page": "rsc"
+      },
+      "filename": "components/Signout.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "BIDLVqLQbOR9cybjnaOsF2x0bIzYL7P1hnFLrQs98zE="
+}

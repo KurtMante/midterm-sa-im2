@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/lib/auth.ts"],"sourcesContent":["import NextAuth from \"next-auth\"\r\nimport Google from \"next-auth/providers/google\"\r\n \r\nexport const { handlers, signIn, signOut, auth } = NextAuth({\r\n  providers: [Google],\r\n})"],"names":[],"mappings":";;;;;;;;;;AAAA;AACA;AAAA;;;AAEO,MAAM,EAAE,QAAQ,EAAE,MAAM,EAAE,OAAO,EAAE,IAAI,EAAE,GAAG,IAAA,wKAAQ,EAAC;IAC1D,WAAW;QAAC,wKAAM;KAAC;AACrB"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { NextRequest } from \"next/server\";\r\n\r\nexport { auth } from \"@/lib/auth\"\r\n\r\n\r\nexport async function middleware(request: NextRequest) {\r\n    const session = await auth()\r\n}\r\n\r\nexport const config = {\r\n    matcher: [\"/\", \"/homepage\"]\r\n}"],"names":[],"mappings":";;;;;;AAEA;;AAGO,eAAe,WAAW,OAAoB;IACjD,MAAM,UAAU,MAAM;AAC1B;AAEO,MAAM,SAAS;IAClB,SAAS;QAAC;QAAK;KAAY;AAC/B"}}]
+}
