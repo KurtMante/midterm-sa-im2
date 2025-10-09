@@ -3,9 +3,9 @@ import serverlessMysql from "serverless-mysql";
 const dbConn = serverlessMysql({
   config: {
     host: "localhost",
-    database: "im-2-midterm-db",
+    database: "im2",
     user: "root",
-    password: "",
+    password: "123456",
     port: 3306,
   },
 });
